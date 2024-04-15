@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="show" inherit_id="account.report_invoice_document">
+            <xpath expr="//div[@id='informations']" position="inside">
+                <div class="col-auto col-3 mw-100 mb-2">
+                    <strong>Livré par :</strong>
+                    <span t-field="o.livry_par"/>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

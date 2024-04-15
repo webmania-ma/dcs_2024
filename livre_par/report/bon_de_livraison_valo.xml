@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <template id="show_in_valo" inherit_id="eloapps_sale_order_payment.report_saleorder_valued">
+        <xpath expr="//div[@id='informations']" position="inside">
+                <div  class="col-auto col-3 mw-100 mb-2">
+                    <strong>Livré par :</strong>
+                    <p class="m-0" t-field="doc.livre_par"/>
+                </div>
+        </xpath>
+    </template>
+    </data>
+
+</odoo>

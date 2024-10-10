@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="account.view_move_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='partner_id']" position="after">
-                <field name="livry_par"
+                <field name="livry_par" string="Livré par" required="1"
                 />
             </xpath>
         </field>

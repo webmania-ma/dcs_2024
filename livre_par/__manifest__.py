@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Ajouter le champe livré par  ",
+    'name': "Ajouter le champe livré par ",
     'description':
         """
         Ce module ajoute un champ 'Livré par' dans les documents Devis, Inventaires et Factures. 
@@ -16,6 +16,7 @@
         'views/view_sale_order.xml',
         'views/view_stock_picking.xml',
         'views/view_account_move.xml',
+        'views/view_res_partner.xml',
         'report/account_move_report.xml',
         'report/livre_par_sale_order.xml',
         'report/livre_par_stock_picking.xml',
